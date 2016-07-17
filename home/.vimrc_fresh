@@ -1,0 +1,3 @@
+let &rtp = substitute(&rtp, '\.vim\>', '.vim_fresh', 'g')
+
+source ${HOME}/.vim_fresh/init.vimrc
